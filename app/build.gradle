@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    namespace 'com.example.fragmenttestrun'
+    compileSdk 29
     defaultConfig {
         applicationId "com.example.fragmenttestrun"
         minSdkVersion 16
-        targetSdkVersion 29
+        targetSdk 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
